@@ -6,14 +6,11 @@ import NavBar from "../componentes/NavBar";
 function Home() {
   return (
 
-    <Container>
-
     <NavBar>
       <CarouselAnuncios />
       <ListaProdutos />
     </NavBar>
     
-    </Container>
   );
 }
 
